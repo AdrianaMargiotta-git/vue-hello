@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    /* animation-name: changecolor;
+    animation-duration: 20s;
+    animation-iteration-count: infinite; */
+}
+
+h1{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
