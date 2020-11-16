@@ -7,7 +7,23 @@ var container = new Vue ({
     el : "#container",
     data : {
         titolo : "Benvenuto nel mondo Vue!",
-        immagine : "./img/vue-symbol.jpg"
+        immagine : "./img/vue-symbol.jpg",
+        immagine2 : "./img/vue-symbol.jpg",
+        changeColor : "multicolortext"
+    },
+
+    methods: {
+        change: function () {
+            //Codice
+            if(this.changeColor === "multicolortext"){
+                this.changeColor = "normaltext";
+            } else {
+                this.changeColor = "multicolortext";
+            }
+        }
     }
+
 });
+
+
 

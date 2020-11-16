@@ -11,6 +11,8 @@
     align-content: center;
     justify-content: center;
     text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
     /* animation-name: changecolor;
     animation-duration: 20s;
     animation-iteration-count: infinite; */
@@ -19,4 +21,17 @@
 h1{
     padding-bottom: 10px;
     padding-top: 10px;
+    font-size: 60px;
+}
+
+.multicolortext {
+    background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.normaltext {
+    color: red;
 }

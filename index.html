@@ -10,9 +10,14 @@
 <body>
     
     <div id="container">
-        <h1>{{titolo}}</h1>
+        <img v-bind:src="immagine2"  style="transform: scaleY(-1);">
+        <h1 :class="changeColor">{{titolo}}</h1>
         <img v-bind:src="immagine">
+        <!-- <br><br><br><br><br> -->
+        <button @click="change">Cambia il colore del testo</button>
     </div>
+
+    <!-- :style="{'background-image':'url(./img/vue-symbol2.png)'" -->
 
 
     <script type="text/javascript" src="js/script.js"></script>
